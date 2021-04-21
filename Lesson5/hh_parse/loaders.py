@@ -6,7 +6,7 @@ from itemloaders.processors import MapCompose, TakeFirst
 
 
 def clear_value(value):
-    return value.replace('\xa0', '')
+    return value.replace('\xa0', ' ')
 
 
 def concat(string_list):
